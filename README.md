@@ -1,7 +1,7 @@
 # NLP Projects
 
 ## Project-1
-### Multi-Class Text Classification to Predict Happiness Source
+### Multi-Class Text Classification to Predict Happiness Source (Using ML Algorithms):
  
 Smile is a corpus of more than 100,000 happy moments crowd-sourced via Amazon's Mechanical Turk
 
@@ -24,3 +24,20 @@ The goal of the corpus is to advance the understanding of the causes of happines
 
 ## Observations:
 Linear Support Vector classifier model has the highest f1_score(93 %) out of all the models. And Naive Bayes classifier has the least f1_score(66%).So, we have to select Support Vector as the best model and by using it we have to Predict the Category of Happiness on Unseen data.
+
+### Multi-Class Text Classification to Predict Happiness Source (Using DL Recurrent Neural Networks):
+## Create a seperate Pipeline for neural network approach:
+1. Import the required libraries
+2. Clean the text data
+3. Tokenize and find out the count of unique words
+4. Convert text to sequences and padding
+5. Split the data into train & test sets
+6. Build a sequencial model and complie it
+7. Fit the model on train data
+8. Evaluate the model on test data
+
+## Observation:
+By using LSTM as the neurons for the hidden layers, I built the deep neural network model and got 88.7% accuracy on the test data.The LinearSVC model is performing better than the LSTMs model on the test data. So, the best model to predict the happiness source is LinearSVC.
+
+
+
