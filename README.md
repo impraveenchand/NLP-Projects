@@ -1,7 +1,7 @@
 # NLP Projects
 
 ## Project-1
-Multi-Class Text Classification to Predict Happiness Source
+### Multi-Class Text Classification to Predict Happiness Source
  
 Smile is a corpus of more than 100,000 happy moments crowd-sourced via Amazon's Mechanical Turk
 
