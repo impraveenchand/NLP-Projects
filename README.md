@@ -1,7 +1,6 @@
 # NLP Projects
 
 ## Project-1
-### Approach 1:
 ### Multi-Class Text Classification to Predict Happiness Source (Using ML Algorithms):
  
 Smile is a corpus of more than 100,000 happy moments crowd-sourced via Amazon's Mechanical Turk
@@ -12,6 +11,7 @@ The goal of the corpus is to advance the understanding of the causes of happines
 
 ## Based on the happy moment statement you have to predict the category of happiness, i.e the source of happiness which is typically either of the following: 'bonding: 'achievement', 'affection', 'leisure', 'enjoy the moment', 'nature', 'exercise'
 
+### Approach 1:
 ## Create a Pipeline to Predict Happiness Source.
 1. Import the required libraries
 2. Load the DataSet into Pandas Dataframe
